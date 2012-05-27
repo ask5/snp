@@ -1,0 +1,267 @@
+﻿body
+{
+    font-family: Calibri;
+    color:#222222;
+    margin:0;
+}
+
+header
+{
+    text-align:center;
+    background-color: #222222;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+h1
+{
+    text-align:center;
+    margin:0;
+    text-shadow: 0 0 1px red, 0 0 10px #fff, 0 0 20px red, 0 0 30px orange, 0 0 40px yellow;
+    color: #000 !important;
+    font-size: 180%;
+}
+
+ul
+{
+    margin:0;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+footer
+{
+    text-align:center;
+    color:Gray;
+}
+
+a
+{
+    color:#000000;
+}
+
+#left, #main
+{
+    float:left;
+    vertical-align:top;
+}
+
+#left
+{
+    width:10%;
+    height:1000px;
+    padding-left: 5px;
+}
+
+#main
+{
+    width:88%;
+    height:100%;
+    border: 1px solid #CC0000; 
+    border-top: 1px solid #CC0000; 
+    border-radius: 5px 5px 5px 5px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.loading  
+{
+ font-family: Calibri;
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  left: 45%;
+  bottom: 40px;
+  width: 200px;
+  padding: 10px;
+  background: #000; 
+  opacity: 0.8;
+  color: #FFF;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+#sports
+{
+    text-align:center;
+    border-bottom: 1px solid #cc0000;
+    margin-bottom: 0.2em;
+}
+
+#sports li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    margin-left:0;
+    /*border-bottom: 1px solid #000000;*/
+}
+
+#leagues li
+{
+    border-bottom: 1px solid #CC0000;
+    margin-bottom: .2em;
+    padding-bottom: .2em;
+    padding-right: 2em;
+    text-align:right;
+}
+
+
+#sports li a, #leagues li span 
+{
+    text-transform: uppercase;
+    cursor:pointer;
+    color: #000000;
+    font-weight:bold;
+    font-size:90%;
+    text-decoration:none;
+}
+
+#sports .select, #leagues .select
+{
+        text-shadow: -0.06em 0 0 red, 0.06em 0 0 cyan;
+    color: #CC0000 !important;
+    font-weight: bold !important;
+}
+
+#headlines
+{
+    margin-top: 0.2em;
+    margin-left: 0.65em;
+}
+
+#leagues
+{
+    margin-top: 2em;
+}
+
+#headlines li
+{
+    list-style-type:none;
+}
+
+#headlines .item 
+{
+    background-color: #ffffff;
+    border: 1px solid #cc0000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+    float: left;
+    margin: 0 5px 10px;
+    padding: 10px 9px 5px;
+    position: relative;
+    width: 200px;
+    word-wrap: break-word;
+}    
+
+#headlines .item h3
+{
+    color: #000000;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+#headlines .ad
+{
+    border: 0 !important;
+    box-shadow: none !important;
+    /*background-color: #fafafa;*/
+}
+
+#headlines .date, #headlines .source
+{
+    font-style:italic;
+    margin-right:.2em;
+    font-size:80%;
+    color: Gray;
+    white-space:nowrap;
+}
+
+#headlines .desc
+{
+    margin-top:.5em;
+}
+
+#headlines .image
+{
+    margin-top:.5em;
+    margin-bottom:.5em;
+    text-align:center;
+}
+
+#headlines img
+{
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+.credit, .caption
+{
+    font-size: 70%;
+}
+.credit
+{
+    color:Gray;
+}
+
+.towerad
+{
+    text-align:center;
+}
+
+
+#msg
+{
+    padding-top:5px;
+    padding-left:1em;
+    height:25px;
+    text-align:center;
+}
+
+.hidden
+{
+    display:none;
+}
+
+.related-articles
+{
+    margin-top: .5em;
+    font-size:75%;
+}
+
+.related-articles li
+{
+    list-style-type:circle !important;
+    margin-left: 1em;
+    margin-top:.2em;
+    margin-bottom:.2em;
+}
+
+.toolbar 
+{
+    border-top: 1px dotted gray;
+    margin-top:1em;
+}    
+
+.bookmark
+{
+    width:32px;
+    height:32px;
+    background-image: url('../img/bmgray.gif');
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor:pointer;
+    margin-right: 5px;
+}
+
+.bookmarked
+{
+    background-image: url('../img/bmactive.png') !important;
+}

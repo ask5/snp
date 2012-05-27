@@ -1,0 +1,1278 @@
+﻿{
+    "sports": [
+        {
+            "name": "baseball",
+            "id": 1,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/baseball"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/baseball/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/baseball/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/baseball/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/baseball/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "Major League Baseball",
+                    "abbreviation": "mlb",
+                    "id": 9,
+                    "shortName": "MLB",
+                    "midsizeName": "MLB"
+                }
+            ]
+        },
+        {
+            "name": "basketball",
+            "id": 40,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/basketball"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/basketball/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/basketball/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/basketball/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/basketball/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "National Basketball Assoc.",
+                    "abbreviation": "nba",
+                    "id": 7
+                },
+                {
+                    "name": "Women's National Basketball Assoc.",
+                    "abbreviation": "wnba",
+                    "id": 3
+                },
+                {
+                    "name": "NCAA Basketball",
+                    "abbreviation": "mens-college-basketball",
+                    "id": 52,
+                    "shortName": "NCAA Basketball",
+                    "midsizeName": "NCAA Basketball"
+                },
+                {
+                    "name": "NCAA Basketball",
+                    "abbreviation": "womens-college-basketball",
+                    "id": 52,
+                    "shortName": "NCAA Basketball",
+                    "midsizeName": "NCAA Basketball"
+                }
+            ]
+        },
+        {
+            "name": "football",
+            "id": 20,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/football"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/football/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/football/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/football/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/football/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "National Football League",
+                    "abbreviation": "nfl",
+                    "id": 9
+                },
+                {
+                    "name": "NCAA Football",
+                    "abbreviation": "college-football",
+                    "id": 99,
+                    "shortName": "NCAA Football",
+                    "midsizeName": "NCAA Football"
+                }
+            ]
+        },
+        {
+            "name": "hockey",
+            "id": 70,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/hockey"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/hockey/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/hockey/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/hockey/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/hockey/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "National Hockey League",
+                    "abbreviation": "nhl",
+                    "id": 9,
+                    "conference": false,
+                    "leaf": false,
+                    "parentId": 0
+                }
+            ]
+        },
+        {
+            "name": "soccer",
+            "id": 600,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/soccer"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/soccer/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/soccer/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/soccer/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/soccer/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "Primera División de Argentina",
+                    "abbreviation": "arg.1",
+                    "id": 1,
+                    "shortName": "Primera A"
+                },
+                {
+                    "name": "UEFA Champions League",
+                    "abbreviation": "uefa.champions",
+                    "id": 2,
+                    "shortName": "Champions League"
+                },
+                {
+                    "name": "World Cup",
+                    "abbreviation": "fifa.world",
+                    "id": 4,
+                    "shortName": "World Cup"
+                },
+                {
+                    "name": "Austrian Bundesliga",
+                    "abbreviation": "aut.1",
+                    "id": 5,
+                    "shortName": "Bundesliga"
+                },
+                {
+                    "name": "Belgian Jupiler League",
+                    "abbreviation": "bel.1",
+                    "id": 6,
+                    "shortName": "Jupiler League"
+                },
+                {
+                    "name": "Danish SAS-Ligaen",
+                    "abbreviation": "den.1",
+                    "id": 7,
+                    "shortName": "SAS-Ligaen"
+                },
+                {
+                    "name": "French Ligue 1",
+                    "abbreviation": "fra.1",
+                    "id": 9,
+                    "shortName": "Ligue 1"
+                },
+                {
+                    "name": "German Bundesliga",
+                    "abbreviation": "ger.1",
+                    "id": 10,
+                    "shortName": "Bundesliga"
+                },
+                {
+                    "name": "Dutch Eredivisie",
+                    "abbreviation": "ned.1",
+                    "id": 11,
+                    "shortName": "Eredivisie"
+                },
+                {
+                    "name": "Italian Serie A",
+                    "abbreviation": "ita.1",
+                    "id": 12,
+                    "shortName": "Serie A"
+                },
+                {
+                    "name": "Norwegian Tippeligaen",
+                    "abbreviation": "nor.1",
+                    "id": 13,
+                    "shortName": "Tippeligaen"
+                },
+                {
+                    "name": "Portuguese Liga",
+                    "abbreviation": "por.1",
+                    "id": 14,
+                    "shortName": "Liga"
+                },
+                {
+                    "name": "Spanish Primera División",
+                    "abbreviation": "esp.1",
+                    "id": 15,
+                    "shortName": "La Liga"
+                },
+                {
+                    "name": "Swedish Allsvenskanliga",
+                    "abbreviation": "swe.1",
+                    "id": 16,
+                    "shortName": "Allsvenskanliga"
+                },
+                {
+                    "name": "Swiss Super League",
+                    "abbreviation": "sui.1",
+                    "id": 17,
+                    "shortName": "Super League"
+                },
+                {
+                    "name": "Turkish Super Lig",
+                    "abbreviation": "tur.1",
+                    "id": 18,
+                    "shortName": "Super Lig"
+                },
+                {
+                    "name": "Major League Soccer",
+                    "abbreviation": "usa.1",
+                    "id": 19,
+                    "shortName": "MLS"
+                },
+                {
+                    "name": "USA Women's United Soccer Association",
+                    "abbreviation": "usa.w.1",
+                    "id": 20,
+                    "shortName": "WUSA"
+                },
+                {
+                    "name": "Primera División de México",
+                    "abbreviation": "mex.1",
+                    "id": 22,
+                    "shortName": "Primera de México"
+                },
+                {
+                    "name": "Barclays Premier League",
+                    "abbreviation": "eng.1",
+                    "id": 23,
+                    "shortName": "Premier League"
+                },
+                {
+                    "name": "English League Championship",
+                    "abbreviation": "eng.2",
+                    "id": 24,
+                    "shortName": "Championship"
+                },
+                {
+                    "name": "English League One",
+                    "abbreviation": "eng.3",
+                    "id": 25,
+                    "shortName": "League One"
+                },
+                {
+                    "name": "English League Two",
+                    "abbreviation": "eng.4",
+                    "id": 26,
+                    "shortName": "League Two"
+                },
+                {
+                    "name": "English Conference",
+                    "abbreviation": "eng.5",
+                    "id": 27,
+                    "shortName": "Conference"
+                },
+                {
+                    "name": "English FA Cup",
+                    "abbreviation": "eng.fa",
+                    "id": 40,
+                    "shortName": "FA Cup"
+                },
+                {
+                    "name": "English Carling Cup",
+                    "abbreviation": "eng.worthington",
+                    "id": 41,
+                    "shortName": "Carling Cup"
+                },
+                {
+                    "name": "Johnstone's Paint Trophy",
+                    "abbreviation": "eng.trophy",
+                    "id": 42,
+                    "shortName": "JP Trophy"
+                },
+                {
+                    "name": "English FA Community Shield",
+                    "abbreviation": "eng.charity",
+                    "id": 43,
+                    "shortName": "FA Community Shield"
+                },
+                {
+                    "name": "UEFA Cup",
+                    "abbreviation": "uefa.uefa",
+                    "id": 44,
+                    "shortName": "UEFA Cup"
+                },
+                {
+                    "name": "Scottish Premier League",
+                    "abbreviation": "sco.1",
+                    "id": 45,
+                    "shortName": "Premier League"
+                },
+                {
+                    "name": "Scottish Division One",
+                    "abbreviation": "sco.2",
+                    "id": 46,
+                    "shortName": "Division One"
+                },
+                {
+                    "name": "Scottish Division Two",
+                    "abbreviation": "sco.3",
+                    "id": 47,
+                    "shortName": "Division Two"
+                },
+                {
+                    "name": "Scottish Division Three",
+                    "abbreviation": "sco.4",
+                    "id": 48,
+                    "shortName": "Division Three"
+                },
+                {
+                    "name": "Scottish Cup",
+                    "abbreviation": "sco.tennents",
+                    "id": 49,
+                    "shortName": "Scottish Cup"
+                },
+                {
+                    "name": "Scottish Communities League Cup",
+                    "abbreviation": "sco.cis",
+                    "id": 50,
+                    "shortName": "Communities League Cup"
+                },
+                {
+                    "name": "Scottish League Challenge Cup",
+                    "abbreviation": "sco.challenge",
+                    "id": 51,
+                    "shortName": "League Challenge Cup"
+                },
+                {
+                    "name": "UEFA Intertoto Cup",
+                    "abbreviation": "uefa.intertoto",
+                    "id": 52,
+                    "shortName": "UEFA Intertoto Cup"
+                },
+                {
+                    "name": "International Friendly",
+                    "abbreviation": "fifa.friendly",
+                    "id": 53,
+                    "shortName": "International Friendly"
+                },
+                {
+                    "name": "UEFA World Cup Qualifying",
+                    "abbreviation": "uefa.worldq",
+                    "id": 54,
+                    "shortName": "UEFA World Cup Qualifying"
+                },
+                {
+                    "name": "European Championship Qualifying",
+                    "abbreviation": "uefa.euroq",
+                    "id": 56,
+                    "shortName": "European Championship Qualifying"
+                },
+                {
+                    "name": "FIFA Confederations Cup",
+                    "abbreviation": "fifa.confederations",
+                    "id": 57,
+                    "shortName": "Confederations Cup"
+                },
+                {
+                    "name": "Copa Libertadores",
+                    "abbreviation": "conmebol.libertadores",
+                    "id": 58,
+                    "shortName": "Copa Libertadores"
+                },
+                {
+                    "name": "Concacaf Gold Cup",
+                    "abbreviation": "concacaf.gold",
+                    "id": 59,
+                    "shortName": "Gold Cup"
+                },
+                {
+                    "name": "Women's World Cup",
+                    "abbreviation": "fifa.wwc",
+                    "id": 60,
+                    "shortName": "Women's World Cup"
+                },
+                {
+                    "name": "World Cup Qualifying",
+                    "abbreviation": "fifa.worldq",
+                    "id": 61,
+                    "shortName": "World Cup Qualifying"
+                },
+                {
+                    "name": "World Cup Qualifying - AFC",
+                    "abbreviation": "fifa.worldq.afc",
+                    "id": 62,
+                    "shortName": "WC Qual - AFC"
+                },
+                {
+                    "name": "World Cup Qualifying - CAF",
+                    "abbreviation": "fifa.worldq.caf",
+                    "id": 63,
+                    "shortName": "WC Qual - CAF"
+                },
+                {
+                    "name": "World Cup Qualifying - CONCACAF",
+                    "abbreviation": "fifa.worldq.concacaf",
+                    "id": 64,
+                    "shortName": "WC Qual - CONCACAF"
+                },
+                {
+                    "name": "World Cup Qualifying - CONMEBOL",
+                    "abbreviation": "fifa.worldq.conmebol",
+                    "id": 65,
+                    "shortName": "WC Qual - CONMEBOL"
+                },
+                {
+                    "name": "World Cup Qualifying - OFC",
+                    "abbreviation": "fifa.worldq.ofc",
+                    "id": 66,
+                    "shortName": "WC Qual - OFC"
+                },
+                {
+                    "name": "World Cup Qualifying - UEFA",
+                    "abbreviation": "fifa.worldq.uefa",
+                    "id": 67,
+                    "shortName": "WC Qual - UEFA"
+                },
+                {
+                    "name": "Friendly",
+                    "abbreviation": "friendly",
+                    "id": 68,
+                    "shortName": "Friendly"
+                },
+                {
+                    "name": "U.S. Open Cup",
+                    "abbreviation": "usa.open",
+                    "id": 69,
+                    "shortName": "U.S. Open Cup"
+                },
+                {
+                    "name": "Women's International Friendly",
+                    "abbreviation": "fifa.friendly.w",
+                    "id": 70,
+                    "shortName": "Women's Int. Friendly"
+                },
+                {
+                    "name": "Men's Olympic Tournament",
+                    "abbreviation": "fifa.olympics",
+                    "id": 71,
+                    "shortName": "Olympics"
+                },
+                {
+                    "name": "Men's Olympic Qualifying Tournament",
+                    "abbreviation": "fifa.olympicsq",
+                    "id": 72,
+                    "shortName": "Men's Olympic Qualifying"
+                },
+                {
+                    "name": "World Youth Championship",
+                    "abbreviation": "fifa.wyc",
+                    "id": 73,
+                    "shortName": "World Youth Championship"
+                },
+                {
+                    "name": "European Championship",
+                    "abbreviation": "uefa.euro",
+                    "id": 74,
+                    "shortName": "European Championship"
+                },
+                {
+                    "name": "Intercontinental Cup",
+                    "abbreviation": "intercontinental",
+                    "id": 75,
+                    "shortName": "Intercontinental Cup"
+                },
+                {
+                    "name": "African Nations Cup",
+                    "abbreviation": "caf.nations",
+                    "id": 76,
+                    "shortName": "African Nations Cup"
+                },
+                {
+                    "name": "Women's Olympic Qualifying Tournament",
+                    "abbreviation": "fifa.w.olympicsq",
+                    "id": 78,
+                    "shortName": "Women's Olympic Qualifying"
+                },
+                {
+                    "name": "Algarve Cup",
+                    "abbreviation": "fifa.w.algarve",
+                    "id": 79,
+                    "shortName": "Algarve Cup"
+                },
+                {
+                    "name": "Spanish Copa del Rey",
+                    "abbreviation": "esp.copa_del_rey",
+                    "id": 80,
+                    "shortName": "Copa del Rey"
+                },
+                {
+                    "name": "Copa America",
+                    "abbreviation": "conmebol.america",
+                    "id": 83,
+                    "shortName": "Copa America"
+                },
+                {
+                    "name": "Women's Olympic Tournament",
+                    "abbreviation": "fifa.w.olympics",
+                    "id": 84,
+                    "shortName": "Women's Olympics"
+                },
+                {
+                    "name": "Futebol Brasileiro",
+                    "abbreviation": "bra.1",
+                    "id": 85,
+                    "shortName": "Brasileiro"
+                },
+                {
+                    "name": "Primera División de Chile",
+                    "abbreviation": "chi.1",
+                    "id": 86,
+                    "shortName": "Primera"
+                },
+                {
+                    "name": "French Ligue 2",
+                    "abbreviation": "fra.2",
+                    "id": 96,
+                    "shortName": "Ligue 2"
+                },
+                {
+                    "name": "German 2. Bundesliga",
+                    "abbreviation": "ger.2",
+                    "id": 97,
+                    "shortName": "Bundesliga 2"
+                },
+                {
+                    "name": "Greek Super League",
+                    "abbreviation": "gre.1",
+                    "id": 98,
+                    "shortName": "Super League"
+                },
+                {
+                    "name": "Italian Serie B",
+                    "abbreviation": "ita.2",
+                    "id": 99,
+                    "shortName": "Serie B"
+                },
+                {
+                    "name": "Dutch Eerste Divisie",
+                    "abbreviation": "ned.2",
+                    "id": 105,
+                    "shortName": "Eerste Divisie"
+                },
+                {
+                    "name": "Russian Premier League",
+                    "abbreviation": "rus.1",
+                    "id": 106,
+                    "shortName": "Premier League"
+                },
+                {
+                    "name": "Spanish Segunda División",
+                    "abbreviation": "esp.2",
+                    "id": 107,
+                    "shortName": "Segunda División"
+                },
+                {
+                    "name": "Welsh Premier League",
+                    "abbreviation": "wal.1",
+                    "id": 113,
+                    "shortName": "Premier League"
+                },
+                {
+                    "name": "League of Ireland Premier Division",
+                    "abbreviation": "irl.1",
+                    "id": 116,
+                    "shortName": "League of Ireland"
+                },
+                {
+                    "name": "French Coupe de la Ligue",
+                    "abbreviation": "fra.coupe_de_la_ligue",
+                    "id": 159,
+                    "shortName": "Coupe de la Ligue"
+                },
+                {
+                    "name": "French Coupe de France",
+                    "abbreviation": "fra.coupe_de_france",
+                    "id": 182,
+                    "shortName": "Coupe de France"
+                },
+                {
+                    "name": "Spanish Super Cup",
+                    "abbreviation": "esp.super_cup",
+                    "id": 431,
+                    "shortName": "Super Cup"
+                },
+                {
+                    "name": "Northern Irish Premiership",
+                    "abbreviation": "nir.1",
+                    "id": 508,
+                    "shortName": "Premiership"
+                },
+                {
+                    "name": "Major Indoor Soccer League",
+                    "abbreviation": "usa.misl",
+                    "id": 515,
+                    "shortName": "MISL"
+                },
+                {
+                    "name": "Copa Sudamericana",
+                    "abbreviation": "conmebol.sudamericana",
+                    "id": 1208,
+                    "shortName": "Sudamericana"
+                },
+                {
+                    "name": "UEFA Super Cup",
+                    "abbreviation": "uefa.super_cup",
+                    "id": 1272,
+                    "shortName": "UEFA Super Cup"
+                },
+                {
+                    "name": "Australian A-League",
+                    "abbreviation": "aus.1",
+                    "id": 1308,
+                    "shortName": "A-League"
+                },
+                {
+                    "name": "Fútbol Profesional Colombiano",
+                    "abbreviation": "col.1",
+                    "id": 1543,
+                    "shortName": "Campeonato"
+                },
+                {
+                    "name": "Primera División de Uruguay",
+                    "abbreviation": "uru.1",
+                    "id": 1592,
+                    "shortName": "Primera"
+                },
+                {
+                    "name": "Primera Profesional de Perú",
+                    "abbreviation": "per.1",
+                    "id": 1813,
+                    "shortName": "Campeonato"
+                },
+                {
+                    "name": "Primera División de Paraguay",
+                    "abbreviation": "par.1",
+                    "id": 1892,
+                    "shortName": "Primera División"
+                },
+                {
+                    "name": "NCAA",
+                    "abbreviation": "usa.ncaa.1",
+                    "id": 1914,
+                    "shortName": "NCAA"
+                },
+                {
+                    "name": "NSCAA",
+                    "abbreviation": "usa.ncaa.w.1",
+                    "id": 1929,
+                    "shortName": "NSCAA"
+                },
+                {
+                    "name": "FIFA Club World Cup",
+                    "abbreviation": "fifa.cwc",
+                    "id": 1932,
+                    "shortName": "Club World Cup"
+                },
+                {
+                    "name": "Primera A de Ecuador",
+                    "abbreviation": "ecu.1",
+                    "id": 1944,
+                    "shortName": "Primera A"
+                },
+                {
+                    "name": "Primera División de Venezuela",
+                    "abbreviation": "ven.1",
+                    "id": 1947,
+                    "shortName": "Primera División"
+                },
+                {
+                    "name": "Liga Profesional Boliviana",
+                    "abbreviation": "bol.1",
+                    "id": 1949,
+                    "shortName": "Liga Profesional"
+                },
+                {
+                    "name": "URBA",
+                    "abbreviation": "arg.urba",
+                    "id": 2009,
+                    "shortName": "URBA"
+                },
+                {
+                    "name": "German DFB Pokal",
+                    "abbreviation": "ger.dfb_pokal",
+                    "id": 2061,
+                    "shortName": "DFB Pokal"
+                },
+                {
+                    "name": "Italian Coppa Italia",
+                    "abbreviation": "ita.coppa_italia",
+                    "id": 2192,
+                    "shortName": "Coppa Italia"
+                },
+                {
+                    "name": "Dutch Cup",
+                    "abbreviation": "ned.cup",
+                    "id": 2196,
+                    "shortName": "Dutch Cup"
+                },
+                {
+                    "name": "South African Premiership",
+                    "abbreviation": "rsa.1",
+                    "id": 2197,
+                    "shortName": "Premiership"
+                },
+                {
+                    "name": "South African National First Division",
+                    "abbreviation": "rsa.2",
+                    "id": 2198,
+                    "shortName": "National First Division"
+                },
+                {
+                    "name": "Japanese J League",
+                    "abbreviation": "jpn.1",
+                    "id": 2199,
+                    "shortName": "J League"
+                },
+                {
+                    "name": "AFC Champions League",
+                    "abbreviation": "afc.champions",
+                    "id": 2200,
+                    "shortName": "AFC Champions League"
+                },
+                {
+                    "name": "AFC Asian Cup",
+                    "abbreviation": "afc.cup",
+                    "id": 2243,
+                    "shortName": "Asian Cup"
+                },
+                {
+                    "name": "Primera División de El Salvador",
+                    "abbreviation": "slv.1",
+                    "id": 2244,
+                    "shortName": "Primera División"
+                },
+                {
+                    "name": "Primera División de Costa Rica",
+                    "abbreviation": "crc.1",
+                    "id": 2245,
+                    "shortName": "Primera División"
+                },
+                {
+                    "name": "AFC Asian Cup Qualifiers",
+                    "abbreviation": "afc.cupq",
+                    "id": 2246,
+                    "shortName": "Asian Cup Qualifiers"
+                },
+                {
+                    "name": "Primera División de Honduras",
+                    "abbreviation": "hon.1",
+                    "id": 2247,
+                    "shortName": "Primera División"
+                },
+                {
+                    "name": "Liga Nacional de Guatemala",
+                    "abbreviation": "gua.1",
+                    "id": 2248,
+                    "shortName": "Liga Nacional"
+                },
+                {
+                    "name": "AFF Cup",
+                    "abbreviation": "aff.championship",
+                    "id": 2261,
+                    "shortName": "AFF Cup"
+                },
+                {
+                    "name": "Sudamericano Sub-20",
+                    "abbreviation": "conmebol.sudamericano_sub20",
+                    "id": 2262,
+                    "shortName": "Sudamericano Sub-20"
+                },
+                {
+                    "name": "CONCACAF Champions Cup",
+                    "abbreviation": "concacaf.champions_cup",
+                    "id": 2283,
+                    "shortName": "Champions Cup"
+                },
+                {
+                    "name": "European Under-21 Championship",
+                    "abbreviation": "uefa.euro_u21",
+                    "id": 2284,
+                    "shortName": "European Under-21 Championship"
+                },
+                {
+                    "name": "U-20 World Cup",
+                    "abbreviation": "fifa.world.u20",
+                    "id": 2285,
+                    "shortName": "U-20 World Cup"
+                },
+                {
+                    "name": "World Series of Football",
+                    "abbreviation": "usa.world_series",
+                    "id": 2286,
+                    "shortName": "World Series of Football"
+                },
+                {
+                    "name": "North American SuperLiga",
+                    "abbreviation": "concacaf.superliga",
+                    "id": 2287,
+                    "shortName": "North American SuperLiga"
+                },
+                {
+                    "name": "U-17 World Cup",
+                    "abbreviation": "fifa.world.u17",
+                    "id": 2288,
+                    "shortName": "U-17 World Cup"
+                },
+                {
+                    "name": "CONCACAF U23 Tournament",
+                    "abbreviation": "concacaf.u23",
+                    "id": 2289,
+                    "shortName": "CONCACAF U23 Tournament"
+                },
+                {
+                    "name": "United Soccer Leagues",
+                    "abbreviation": "usa.usl.1",
+                    "id": 2292,
+                    "shortName": "United Soccer Leagues"
+                },
+                {
+                    "name": "Nacional B de Argentina",
+                    "abbreviation": "arg.2",
+                    "id": 2294,
+                    "shortName": "Nacional B"
+                },
+                {
+                    "name": "Colombia Segunda División",
+                    "abbreviation": "col.2",
+                    "id": 2295,
+                    "shortName": "Segunda División"
+                },
+                {
+                    "name": "European Under-19 Championship",
+                    "abbreviation": "uefa.euro.u19",
+                    "id": 2297,
+                    "shortName": "European Under-19 Championship"
+                },
+                {
+                    "name": "CONCACAF Champions League",
+                    "abbreviation": "concacaf.champions",
+                    "id": 2298,
+                    "shortName": "Champions League"
+                },
+                {
+                    "name": "Brasileirao B",
+                    "abbreviation": "bra.2",
+                    "id": 2299,
+                    "shortName": "Brasileirao B"
+                },
+                {
+                    "name": "Segunda División de Uruguay",
+                    "abbreviation": "uru.2",
+                    "id": 2300,
+                    "shortName": "Segunda"
+                },
+                {
+                    "name": "Primera División C de Argentina",
+                    "abbreviation": "arg.4",
+                    "id": 2301,
+                    "shortName": "Primera C"
+                },
+                {
+                    "name": "Segunda División de Paraguay",
+                    "abbreviation": "par.2",
+                    "id": 2302,
+                    "shortName": "Segunda División"
+                },
+                {
+                    "name": "Segunda División de Venezuela",
+                    "abbreviation": "ven.2",
+                    "id": 2303,
+                    "shortName": "Segunda División"
+                },
+                {
+                    "name": "Primera División D de Argentina",
+                    "abbreviation": "arg.5",
+                    "id": 2304,
+                    "shortName": "Primera D"
+                },
+                {
+                    "name": "Segunda División de Perú",
+                    "abbreviation": "per.2",
+                    "id": 2305,
+                    "shortName": "Segunda División"
+                },
+                {
+                    "name": "México Liga de Ascenso",
+                    "abbreviation": "mex.2",
+                    "id": 2306,
+                    "shortName": "Primera A"
+                },
+                {
+                    "name": "Segunda División de Chile",
+                    "abbreviation": "chi.2",
+                    "id": 2307,
+                    "shortName": "Segunda División"
+                },
+                {
+                    "name": "Primera División B de Argentina",
+                    "abbreviation": "arg.3",
+                    "id": 2308,
+                    "shortName": "Primera B"
+                },
+                {
+                    "name": "Torneo Interliga de México",
+                    "abbreviation": "mex.interliga",
+                    "id": 2309,
+                    "shortName": "Interliga"
+                },
+                {
+                    "name": "UEFA Europa League",
+                    "abbreviation": "uefa.europa",
+                    "id": 2310,
+                    "shortName": "Europa League"
+                },
+                {
+                    "name": "Ecuador Serie B",
+                    "abbreviation": "ecu.2",
+                    "id": 2311,
+                    "shortName": "Serie B"
+                },
+                {
+                    "name": "World Football Challenge",
+                    "abbreviation": "global.world_football_challenge",
+                    "id": 2312,
+                    "shortName": "World Football Challenge"
+                },
+                {
+                    "name": "Carling Nations Cup",
+                    "abbreviation": "uefa.carling",
+                    "id": 2313,
+                    "shortName": "Nations Cup"
+                },
+                {
+                    "name": "FA Women's Super League",
+                    "abbreviation": "eng.w.1",
+                    "id": 2314,
+                    "shortName": "Women's SL"
+                },
+                {
+                    "name": "German Super Cup",
+                    "abbreviation": "ger.super_cup",
+                    "id": 2315,
+                    "shortName": "DFB Super Cup"
+                },
+                {
+                    "name": "Italian Super Cup",
+                    "abbreviation": "ita.super_cup",
+                    "id": 2316,
+                    "shortName": "Super Cup"
+                },
+                {
+                    "name": "Rugby World Cup",
+                    "abbreviation": "rug.irb.world",
+                    "id": 2317,
+                    "shortName": "World Cup"
+                },
+                {
+                    "name": "Juegos Panamericanos – Hombres",
+                    "abbreviation": "panam.m",
+                    "id": 2318,
+                    "shortName": "Panamericanos – Hombres"
+                },
+                {
+                    "name": "Juegos Panamericanos – Mujeres",
+                    "abbreviation": "panam.w",
+                    "id": 2319,
+                    "shortName": "Panamericanos – Mujeres"
+                },
+                {
+                    "name": "Copa Argentina",
+                    "abbreviation": "arg.copa",
+                    "id": 2320,
+                    "shortName": "Copa Arg"
+                }
+            ]
+        },
+        {
+            "name": "golf",
+            "id": 1100,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/golf"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/golf/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/golf/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/golf/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/golf/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "Professional Golf Association",
+                    "abbreviation": "pga",
+                    "id": 1
+                },
+                {
+                    "name": "Nationwide Tour",
+                    "abbreviation": "ntw",
+                    "id": 2
+                },
+                {
+                    "name": "Champions Tour",
+                    "abbreviation": "sga",
+                    "id": 3
+                },
+                {
+                    "name": "European Tour",
+                    "abbreviation": "eur",
+                    "id": 5
+                }
+            ]
+        },
+        {
+            "name": "tennis",
+            "id": 845,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/tennis"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/tennis/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/tennis/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/tennis/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/tennis/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "Association of Tennis Professionals",
+                    "abbreviation": "atp",
+                    "id": 1
+                },
+                {
+                    "name": "Women's Tennis Association",
+                    "abbreviation": "wta",
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "racing",
+            "id": 2000,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/racing"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/racing/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/racing/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/racing/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/racing/events"
+                    }
+                }
+            },
+            "leagues": [
+                {
+                    "name": "IndyCar Series",
+                    "abbreviation": "irl",
+                    "id": 1,
+                    "shortName": "IRL"
+                },
+                {
+                    "name": "NASCAR Sprint Cup",
+                    "abbreviation": "sprint",
+                    "id": 2,
+                    "shortName": "SPRINT"
+                },
+                {
+                    "name": "NASCAR Nationwide",
+                    "abbreviation": "nationwide",
+                    "id": 3,
+                    "shortName": "NATIONWIDE"
+                },
+                {
+                    "name": "NASCAR Camping World Truck",
+                    "abbreviation": "truck",
+                    "id": 4,
+                    "shortName": "CAMPING WORLD TRUCK"
+                },
+                {
+                    "name": "Formula One",
+                    "abbreviation": "f1",
+                    "id": 6,
+                    "shortName": "F1"
+                },
+                {
+                    "name": "National Hot Rod Association",
+                    "abbreviation": "nhra",
+                    "id": 8,
+                    "shortName": "NHRA"
+                },
+                {
+                    "name": "American Le Mans Series",
+                    "abbreviation": "alms",
+                    "id": 9,
+                    "shortName": "ALMS"
+                }
+            ]
+        },
+        {
+            "name": "boxing",
+            "id": 1000,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/boxing"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/boxing/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/boxing/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/boxing/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/boxing/events"
+                    }
+                }
+            }
+        },
+        {
+            "name": "mma",
+            "id": 3300,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/mma"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/mma/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/mma/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/mma/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/mma/events"
+                    }
+                }
+            }
+        },
+        {
+            "name": "horse-racing",
+            "id": 1200,
+            "links": {
+                "api": {
+                    "sports": {
+                        "href": "http://api.espn.com/v1/sports/horse-racing"
+                    },
+                    "news": {
+                        "href": "http://api.espn.com/v1/sports/horse-racing/news"
+                    },
+                    "notes": {
+                        "href": "http://api.espn.com/v1/sports/horse-racing/news/notes"
+                    },
+                    "headlines": {
+                        "href": "http://api.espn.com/v1/sports/horse-racing/news/headlines"
+                    },
+                    "events": {
+                        "href": "http://api.espn.com/v1/sports/horse-racing/events"
+                    }
+                }
+            }
+        }
+    ],
+    "links": {
+        "api": {
+            "news": {
+                "href": "http://api.espn.com/v1/sports/news"
+            },
+            "headlines": {
+                "href": "http://api.espn.com/v1/sports/news/headlines"
+            },
+            "notes": {
+                "href": "http://api.espn.com/v1/sports/news/notes"
+            },
+            "events": {
+                "href": "http://api.espn.com/v1/sports/events"
+            }
+        }
+    },
+    "timestamp": "2012-04-11T01:58:51Z",
+    "status": "success"
+}
